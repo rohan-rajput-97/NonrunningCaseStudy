@@ -16,8 +16,6 @@ Feature: Case Study Scenarios
       | usname | fname | lname   |
       | Alex12 | Alex  | firangi |
 
-  #| Anagha12 | Anagha | Gunjal       |
-  #| Niki12   | Nikita | Ichalkaranje |
   @CaseStudy2
   Scenario Outline: Signin on TestMe App
     Given user clicks on signin button on homepage
@@ -26,10 +24,8 @@ Feature: Case Study Scenarios
     Then user clicks on Login button
 
     Examples: 
-      | luname | lpass   |
-      #| Anagha12 | rohan12 |
-      #| Niki12   | rohan12 |
-      | Alex12 | rohan12 |
+      | luname  | lpass       |
+      | lalitha | password123 |
 
   @CaseStudy3
   Scenario: Searching a item on TestMe App
